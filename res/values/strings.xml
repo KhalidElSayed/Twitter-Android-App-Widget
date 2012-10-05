@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">TwitterFeedWidgetTut</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="twitter_widget_instructions">Enter the search term you want to use to search twitter</string>
+    <string name="save">Save</string>
+    <string name="widget_add_instructions">Now quit this app and go and add a widget to your desktop. Either long press your home screen or find it in the menu.</string>
+
+</resources>

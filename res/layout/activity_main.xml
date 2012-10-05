@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView_instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/twitter_widget_instructions" />
+
+    <TextView
+        android:id="@+id/textView_twitter_search_term"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_instructions"
+        android:padding="@dimen/padding_medium" />
+
+    <EditText
+        android:id="@+id/editText_twitter_search_term"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_twitter_search_term"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_set_twitter_search_term"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_twitter_search_term"
+        android:onClick="onSetTwitterSearchTermClick"
+        android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/textView_further_instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_set_twitter_search_term"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/widget_add_instructions"
+        android:visibility="invisible" />
+
+</RelativeLayout>
